@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Adivinanza</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- esto es para llamar libreria--->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="juego_adiv.css" />
+    <!-- Aquí llamo al archivo CSS -->
+  </head>
+  <body>
+    <div id="game-container">
+      <label for="guess">Adivina el numero (entre el 1 y 10): </label>
+      <input type="number" id="guess" />
+      <button onclick="checkGuess()">COMPROBAR</button>
+      <!--onclick sirve para llamar una funcion de js que se ejecuta mediante el click--->
+    </div>
+    <script src="js.dom_avanzado/juego_adivinanza.js"></script>
+    <!---aqui estoy llamando mi archivo js-->
+  </body>
+</html>

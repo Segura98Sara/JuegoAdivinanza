@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d1c1ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: clip;
+}
+
+/* Contenedor del juego */
+#game-container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo de los textos */
+h1 {
+    color: #716add;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 1em;
+    display: block;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+/* Botón para comprobar el número */
+button {
+    background-color: #716add;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #605bc5;
+}
+
+/* Estilos para el popup de SweetAlert2 */
+.swal2-popup {
+    font-size: 1.1em !important;
+}
+
+.swal2-title {
+    color: #716add !important;
+}
+
